@@ -1,11 +1,11 @@
-# Clickhouse for data Storing and Analysis
+# Clickhouse for DatWareHousing
 
-[Clickhouse](https://clickhouse.com/) is an open-source column-oriented DBMS for online analytical processing that allows users to generate analytical reports using SQL queries in real-time.
+ClickHouse is an open-source database designed for fast analysis of large datasets. It stores data in columns and allows users to generate real-time reports using standard SQL.
 
 
 ## Clikhouse in this project
 
-In this project, Clickhouse is used to store customer and products data. It is also Connected to [Grafana](https://grafana.com/grafana/plugins/grafana-clickhouse-datasource/) to build a dahboard.
+In this project, Clickhouse is used to store customer and products data. It is also connected to Grafanato build a dashboard.
 
 The image below, shows that Clickhouse instance is deployed in Docker. 3 tables are created to store the data. Description of the tables in the next section.
 ![clickhouse](../images/clickhouse.png)
