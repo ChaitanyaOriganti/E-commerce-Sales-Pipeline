@@ -7,7 +7,8 @@ Develop a sophisticated data engineering pipeline to efficiently extract, transf
 
 # Phase 1: Data Preparation
 
-# Acquire Dataset: Secure an e-commerce sales dataset (either by sourcing an existing one or simulating transactions). Ensure it captures key elements like purchase date, product details (name, category, price), quantity, and customer information if possible.
+# Acquire Dataset: 
+Secure an e-commerce sales dataset (either by sourcing an existing one or simulating transactions). Ensure it captures key elements like purchase date, product details (name, category, price), quantity, and customer information if possible.
 Clean and Transform: Thoroughly clean the dataset, addressing missing entries, potential anomalies, and inconsistencies. Normalize data formats as needed for streamlined analysis.
 
 #  Phase 2: Data Infrastructure
@@ -27,7 +28,7 @@ Set DAGs to execute on a chosen schedule (e.g., daily updates).
 
 # Key Considerations
 
-## Data Quality: P
+## Data Quality: 
 Prioritize meticulous data cleaning to ensure downstream analysis is built on a solid foundation.
 ## Scalability: 
 Design your ClickHouse schema and Airflow workflows to handle increasing data volumes as your e-commerce business grows. 
