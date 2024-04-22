@@ -14,7 +14,7 @@ with DAG(
     dag_id='e-commerce_analysis_etl',
     schedule_interval=None,
     catchup=False,
-    start_date=datetime(2023,1,1)
+    start_date=datetime(2024,1,1)
     ) as dag:
     
     def extract():
