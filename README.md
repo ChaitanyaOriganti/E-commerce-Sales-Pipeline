@@ -5,13 +5,13 @@ Develop a sophisticated data engineering pipeline to efficiently extract, transf
 
 # Project Outline
 
-# Phase 1: Data Preparation
+## Phase 1: Data Preparation
 
 # Acquire Dataset: 
 Secure an e-commerce sales dataset (either by sourcing an existing one or simulating transactions). Ensure it captures key elements like purchase date, product details (name, category, price), quantity, and customer information if possible.
 Clean and Transform: Thoroughly clean the dataset, addressing missing entries, potential anomalies, and inconsistencies. Normalize data formats as needed for streamlined analysis.
 
-#  Phase 2: Data Infrastructure
+##  Phase 2: Data Infrastructure
 ## ClickHouse Implementation: 
 Install and set up ClickHouse. Its columnar structure makes it ideal for the scale and speed needed with e-commerce analytics workloads. Design a table schema that aligns with your data and the analysis you intend to perform.
 
