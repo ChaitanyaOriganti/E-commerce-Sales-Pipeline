@@ -11,17 +11,26 @@ Develop a sophisticated data engineering pipeline to efficiently extract, transf
 Clean and Transform: Thoroughly clean the dataset, addressing missing entries, potential anomalies, and inconsistencies. Normalize data formats as needed for streamlined analysis.
 
 #  Phase 2: Data Infrastructure
-## ClickHouse Implementation: Install and set up ClickHouse. Its columnar structure makes it ideal for the scale and speed needed with e-commerce analytics workloads. Design a table schema that aligns with your data and the analysis you intend to perform.
+## ClickHouse Implementation: 
+Install and set up ClickHouse. Its columnar structure makes it ideal for the scale and speed needed with e-commerce analytics workloads. Design a table schema that aligns with your data and the analysis you intend to perform.
 
-## Airflow for Orchestration: Install Apache Airflow. Construct DAGs to automate the following:
-## Extraction: Pull data from your source system(s).
-## Transformation: Apply data cleaning and preparation logic.
-## Loading: Insert the transformed data into your ClickHouse data warehouse.
-## Scheduling: Set DAGs to execute on a chosen schedule (e.g., daily updates).
-Key Considerations
+## Airflow for Orchestration: 
+Install Apache Airflow. Construct DAGs to automate the following:
+## Extraction: 
+Pull data from your source system(s).
+## Transformation: 
+Apply data cleaning and preparation logic.
+## Loading: 
+Insert the transformed data into your ClickHouse data warehouse.
+## Scheduling: 
+Set DAGs to execute on a chosen schedule (e.g., daily updates).
 
-## Data Quality: Prioritize meticulous data cleaning to ensure downstream analysis is built on a solid foundation.
-## Scalability: Design your ClickHouse schema and Airflow workflows to handle increasing data volumes as your e-commerce business grows. 
+# Key Considerations
+
+## Data Quality: P
+Prioritize meticulous data cleaning to ensure downstream analysis is built on a solid foundation.
+## Scalability: 
+Design your ClickHouse schema and Airflow workflows to handle increasing data volumes as your e-commerce business grows. 
 
 
 
